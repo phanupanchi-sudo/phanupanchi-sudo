@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>เรซูเม่ — นายภานุพันธ์ ใจตรง</title>
+  <style>
+    :root{
+      --bg:#f3ece3; --card:#ffffff; --accent:#8b5e3c; --muted:#5c5c5c; --radius:12px;
+      --max-width:900px; --pad:28px;
+      font-family: 'Prompt', sans-serif;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:var(--bg);color:#111}
+    .container{max-width:var(--max-width);margin:28px auto;padding:12px}
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:0 8px 30px rgba(2,6,23,0.08);overflow:hidden}
+    header{display:flex;gap:20px;padding:var(--pad);align-items:center}
+    .avatar{width:120px;height:120px;border-radius:14px;overflow:hidden}
+    .avatar img{width:100%;height:100%;object-fit:cover;border-radius:14px}
+    .title{flex:1}
+    h1{margin:0;font-size:24px;color:var(--accent)}
+    p.role{margin:6px 0 0;color:var(--muted)}
+    .contact{margin-top:10px;font-size:14px;color:var(--muted)}
+
+    main{display:grid;grid-template-columns:1fr 320px;gap:0}
+    .left{padding:var(--pad);border-right:1px solid #e5d3c5}
+    .right{padding:var(--pad);background:linear-gradient(180deg,rgba(139,94,60,0.05),transparent)}
+
+    section{margin-bottom:18px}
+    .section-title{font-weight:700;color:var(--accent);font-size:14px;margin-bottom:10px}
+    .job{margin-bottom:14px}
+    .job h3{margin:0;font-size:16px}
+    .job .meta{color:var(--muted);font-size:13px;margin-top:4px}
+    .bullets{margin:8px 0 0;padding-left:18px}
+    .skill-list{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#e9d7c3;padding:6px 10px;border-radius:999px;font-size:13px;color:#3b2b1a}
+
+    footer{padding:12px 28px 28px;color:var(--muted);font-size:13px;text-align:center}
+
+    @media (max-width:880px){
+      main{grid-template-columns:1fr}
+      .right{border-top:1px solid #e5d3c5}
+    }
+
+    @media print{
+      body{background:#fff}
+      .container,.card{box-shadow:none;margin:0;border-radius:0}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="avatar">
+          <img src="f9c1961d-25db-4dc6-9854-ddd0cb21388d.png" alt="Profile Photo">
+        </div>
+        <div class="title">
+          <h1>นายภานุพันธ์ ใจตรง</h1>
+          <p class="role">นักศึกษาสาขานวัตกรรมธุรกิจดิจิทัล</p>
+          <div class="contact">รหัสนักศึกษา: 67409230 • อายุ 25 ปี • โทร: 065-xxx-5247 • ขอนแก่น, ประเทศไทย</div>
+        </div>
+      </header>
+
+      <main>
+        <div class="left">
+          <section>
+            <div class="section-title">สรุปข้อมูลส่วนตัว</div>
+            <p>
+              นักศึกษาสาขานวัตกรรมธุรกิจดิจิทัล ที่มีความสนใจด้านเทคโนโลยีธุรกิจ การตลาดออนไลน์ และการวิเคราะห์ข้อมูล<br>
+              มีทักษะการใช้เครื่องมือดิจิทัลเพื่อสร้างสรรค์นวัตกรรม และมุ่งมั่นพัฒนาตนเองเพื่อพร้อมต่อการทำงานในอนาคต
+            </p>
+          </section>
+
+          <section>
+            <div class="section-title">การศึกษา</div>
+            <div class="job">
+              <h3>ปริญญาตรี สาขานวัตกรรมธุรกิจดิจิทัล</h3>
+              <div class="meta">มหาวิทยาลัยขอนแก่น • 2022 – ปัจจุบัน</div>
+            </div>
+          </section>
+
+          <section>
+            <div class="section-title">ประสบการณ์และกิจกรรม</div>
+            <div class="job">
+              <h3>ผู้เข้าร่วมโครงการอบรมดิจิทัล</h3>
+              <div class="meta">เข้าร่วมอบรมหลักสูตร Microsoft Office และการทำงานดิจิทัล</div>
+              <ul class="bullets">
+                <li>เรียนรู้การใช้เครื่องมือ Microsoft Word, Excel, PowerPoint อย่างมีประสิทธิภาพ</li>
+                <li>ฝึกการจัดทำเอกสารและนำเสนอข้อมูลในรูปแบบดิจิทัล</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <aside class="right">
+          <section>
+            <div class="section-title">ทักษะ</div>
+            <div class="skill-list">
+              <div class="skill">Microsoft Office</div>
+              <div class="skill">Canva</div>
+              <div class="skill">Social Media Marketing</div>
+              <div class="skill">Data Visualization</div>
+              <div class="skill">HTML / CSS</div>
+            </div>
+          </section>
+
+          <section>
+            <div class="section-title">ความสนใจ</div>
+            <p style="color:var(--muted);font-size:14px">
+              ธุรกิจดิจิทัล, การตลาดออนไลน์, เทคโนโลยีสารสนเทศ, การออกแบบเว็บไซต์
+            </p>
+          </section>
+        </aside>
+      </main>
+
+      <footer>
+        © 2025 นายภานุพันธ์ ใจตรง — สร้างเรซูเม่ด้วย HTML (โทนน้ำตาล)
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
