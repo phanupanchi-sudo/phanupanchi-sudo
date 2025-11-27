@@ -3,10 +3,9 @@
 
 ผมชอบเขียนโค้ดและวิเคราะห์ข้อมูล ปัจจุบันกำลังสนใจเรื่อง AI และ Data Analytics
 
-- 🔭 I’m currently working on ... (โปรเจกต์ที่ทำอยู่)
-- 🌱 I’m currently learning ... (สิ่งที่กำลังเรียน)
-- 👯 I’m looking to collaborate on ... (สิ่งที่อยากหาคนช่วย)
-- 📫 How to reach me: ... (อีเมลหรือช่องทางติดต่อ)
+- 🔭 I’m studying at Sripatum University KhonKaen
+- 🌱 Digital Business Innovation Branch
+- 📫 How to reach me: iceinzoro@gmail.com
 
 ---
 
